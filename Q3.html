@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+    <style>
+        #box
+{
+    /* display: flex; */
+    justify-items: center;
+    height: 450px;
+    width: 450px;
+    background-color:rgb(146,86, 46);
+    color: black;
+    align-items: center;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button
+{
+    border-radius: 40px;
+}
+input{
+    border-radius: 5px;
+}
+.xyz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="box">
+            <header>
+                <center><h1>Registration Form</h1></center>
+            </header>
+            <form>
+                <div class="xyz"><b>Enter The Name:</b></div>
+                <input type="text" required>
+            </form><br>
+            <div class="xyz"><b>Enter The Email:</b></div>
+                <input type="email" required><br>
+            </label><b>Gender:</b></label>
+            <br><input type="radio" name="Gender" value="Male">Male
+            <br><input type="radio" name="Gender" value="Female">Female
+            <p></p>
+            <div class="xyz"><b>Interests:</b></div>
+            <input type="text" required></br>
+            <br><input type="checkbox" name="Interests" value="Reading">Reading
+            <input type="checkbox" name="Interests" value="Music">Music
+            <input type="checkbox" name="Interests" value="Sports">Sports
+            <p></p>
+            <label><b>City:</b></label>
+            <select name="city" required>
+                <option value="">Select a city</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Surat">Surat</option>
+                <option value="Vadodara">Vadodara</option>
+            </select>
+            <p></p>
+            <button type="submit"><b>Submit</b></button>
+            <button type="reset"><b>Reset</b></button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
